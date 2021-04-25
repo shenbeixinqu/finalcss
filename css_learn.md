@@ -10,5 +10,14 @@ target 打开窗口的方式
 		找到目标位置标签，里面添加一个id属性=刚才的名字，如<h3 id="two">第二集</h3>
 ```
 
+### label标签
+
+```shell
+绑定表单元素，点击label标签内的文本，自动选择对应的表单元素上
+for 和 id 对应
+<label for="sex">男</label>
+<input type="radio" name="sex" id="sex"/>
+```
+
 
 
