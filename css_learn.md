@@ -19,5 +19,25 @@ for 和 id 对应
 <input type="radio" name="sex" id="sex"/>
 ```
 
+### text-align
+
+```shell
+ #只能设置水平对齐
+ text-align:
+ 	center  left  right
+```
+
+### text-decoration
+
+```shell
+# 装饰文本
+text-decoration
+a {
+	text-decoration: none
+}
+underline  下划线
+overline   上划线
+```
+
 
 
