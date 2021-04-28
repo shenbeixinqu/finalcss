@@ -39,5 +39,30 @@ underline  下划线
 overline   上划线
 ```
 
+### text-indent
+
+```shell
+# 缩进
+text-indent: 2em
+```
+
+### line-height
+
+```shell
+# 行间距
+line-height:26px
+文字高度 + 上间距 + 下边距
+```
+
+### 复合选择器
+
+```shell
+# 后代选择器
+ol li
+# 子元素选择器
+ol>li
+
+```
+
 
 
