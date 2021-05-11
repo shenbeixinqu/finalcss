@@ -61,8 +61,95 @@ line-height:26px
 ol li
 # 子元素选择器
 ol>li
-
 ```
+
+### 并集选择器
+
+```shell
+div,
+p,
+ul
+并集选择器竖着写，最后一个不加逗号
+```
+
+### 伪类选择器
+
+```shell
+最大的特点就是用冒号表示
+a:link      没有访问过的连接
+a:visited   访问过的连接
+a:hover     鼠标经过的时候
+a:active    正在按下没有谈起的时候
+注意事项：
+顺序 l v  h a
+
+:focus 把获得光标的表单元素选取出来
+例 input:focus
+```
+
+```shell
+#块元素
+<h1>-<h6> div p ul ol li
+```
+
+###　显示模式的转换
+
+```shell
+# 转换为块元素
+display：block
+# 转换为行内元素
+display:inline
+```
+
+### 单行文字垂直居中
+
+```shell
+height = line-height
+```
+
+### 背景图片
+
+```shell
+background-image:url()  # 绝对或相对位置
+
+background-repeat: no-repeat/repeat-x
+```
+
+### 背景位置
+
+```shell
+# 后面可以跟方位名词和精确单位
+background-position: x , y
+background-position: center , right
+# 省略一个参数，省略的位置为居中
+background-position: right
+# 如果是精确单位，第一个必须是x,第二个是y
+```
+
+### 背景固定
+
+```shell
+background-attachment: scroll | fixed
+scroll  随对象内容滚动
+fixed  背景图像固定
+```
+
+### 背景复合写法
+
+```shell
+background: 背景颜色 背景图片地址 背景平铺 背景图像滚动 背景图片位置
+```
+
+###　css三大特性
+
+```shell
+# 层叠性
+样式冲突，就近原则
+# 继承性
+孩子继承父亲的样式
+```
+
+
 
 
 
