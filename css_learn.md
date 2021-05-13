@@ -162,6 +162,13 @@ id选择器   0，1，0，0
 # 合并相邻的边框
 border-collapse:collapse
 # 如果没有指定宽度和宽度  padding撑不开盒子大小
+# 快级盒子水平居中
+	前提条件：盒子设置了宽度，左右外边距都设置auto
+	margin: 0 auto
+# 行内元素或者行内块元素水平居中
+	给父元素添加 text-align:center
+# 盒子阴影 
+	box-shadow
 ```
 
 
