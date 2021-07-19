@@ -207,7 +207,7 @@ border-collapse:collapse
 
 ```shell
 shift 选择两个图层
-图层菜单->合并图层（ctrl+e） 然后导出
+图层菜单->合并图层（ctrl+e） 然后导出+
 ```
 
 
